@@ -1,0 +1,88 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+#container {
+	margin: 80px 20px 20px 70px;
+	width: 600px;
+}
+
+img {
+	float: left;
+}
+
+#header {
+	border-left: 2px solid rgb(134, 169, 200);
+	float: right;
+	padding-left: 25px;
+	width: 300px;
+}
+
+h1 {
+	color: rgb(163, 64, 134);
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+.header_list {
+	color: rgb(134, 169, 200);
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 20px;
+}
+
+h3 {
+	color: rgb(163, 64, 134);
+	font-size: 15px;
+	font-weight: 700;
+	margin-bottom: 7px;
+	margin-top: 15px;
+}
+
+#main_content {
+	float: left;
+	margin-top: 50px;
+	width: 600px;
+}
+
+h2 {
+	border-bottom: 2px solid rgb(134, 169, 200);
+	color: rgb(163, 64, 134);
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	padding-bottom: 5px;
+}
+
+.content_list {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 20px;
+}
+
+ul>p {
+	font-weight: 100;
+	margin: 7px 0px 10px 20px;
+}
+
+#footer {
+	float: left;
+	margin: 60px 0 80px 0;
+}
+
+.button {
+	background-color: rgb(134, 169, 200);
+	border-radius: 10px;
+	color: rgb(255, 255, 255);
+	font-weight: 500;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: rgb(163, 64, 134);
+}
