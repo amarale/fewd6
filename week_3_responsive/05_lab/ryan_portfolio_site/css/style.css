@@ -1,0 +1,205 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.top_header {
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	border-bottom: 4px solid black;
+	height: 44px;
+	z-index: 2;
+}
+
+.top_nav {
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.top_nav a {
+	color: black;
+	text-decoration: none;
+	line-height: 44px;
+	padding: 0 15px;
+	display: inline-block;
+}
+
+.top_nav a:hover {
+	color: white;
+	background-color: black;
+}
+
+.logo {
+	position: absolute;
+	left: 20px;
+	top: 5px;
+}
+
+.weddings {
+	display: block;
+	margin-top: 44px;
+	width: 25%;
+	height: 800px;
+	float: left;
+	opacity: .8;
+	background-size: cover;
+	background: transparent url("https://dl.dropboxusercontent.com/u/2179993/fewd/lab_1/images/weddings/main.jpg") no-repeat 25% 50%;
+}
+
+.headshots {
+	display: block;
+	margin-top: 44px;
+	width: 25%;
+	height: 800px;
+	float: left;
+	opacity: .8;
+	background-size: cover;
+	background: transparent url("https://dl.dropboxusercontent.com/u/2179993/fewd/lab_1/images/headshots/main.jpg") no-repeat 25% 50%;
+}
+
+.music {
+	display: block;
+	margin-top: 44px;
+	width: 25%;
+	height: 800px;
+	float: left;
+	opacity: .8;
+	background-size: cover;
+	background: transparent url("https://dl.dropboxusercontent.com/u/2179993/fewd/lab_1/images/music/main.jpg") no-repeat 25% 50%;
+}
+
+.art {
+	display: block;
+	margin-top: 44px;
+	width: 25%;
+	height: 800px;
+	float: left;
+	opacity: .8;
+	background-size: cover;
+	background: transparent url("https://dl.dropboxusercontent.com/u/2179993/fewd/lab_1/images/art/main.jpg") no-repeat 25% 50%;
+}
+
+.sub_header_nav {
+	display: inline-block;
+	background-color: rgba(255, 255, 255, .75);
+	width: 100%;
+	height: 44px;
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	line-height: 44px;
+	margin-top: 580px;
+	border-bottom: 4px solid black;
+}
+
+.sub_header_nav {
+	text-decoration: none;
+}
+
+.sub_header_background {
+	padding-top: 44px;
+	background-color: black;
+	height: 844px;
+	width: 100%;
+}
+
+.sub_header a:hover {
+	opacity: 1;
+}
+
+.bio {
+	border-bottom: 44px solid black;
+	border-top: 44px solid black;
+	width: 100%;
+	height: 588px;
+}
+
+.bio_content {
+	position: relative;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.self_portrait {
+	position: relative;
+	float: left;
+	width: 500px;
+	height: 500px;
+	z-index: 1;
+}
+
+.self_portrait_alt {
+	position: absolute;
+	float: left;
+	margin-left: -500px;
+	width: 500px;
+	height: 500px;
+}
+
+.self_portrait:hover {
+	opacity: 0;
+}
+
+.bio_text {
+	position: absolute;
+	margin-left: 500px;
+	padding: 3px 0 0 10px;
+	width: 500px;
+	height: 500px;
+}
+
+.bar_header {
+	margin: 5px 0;
+}
+
+.bar {
+	display: inline-block;
+	height: 15px;
+	width: 490px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.three_quarter_bar {
+	height: 13px;
+	width: 75%;
+	background-color: black;
+}
+
+.quarter_bar {
+	height: 13px;
+	width: 25%;
+	background-color: black;
+}
+
+.full_bar {
+	height: 13px;
+	width: 100%;
+	background-color: black;
+}
+
+.two_quarter_bar {
+	height: 13px;
+	width: 50%;
+	background-color: black;
+}
+
+.ten_bar {
+	height: 13px;
+	width: 10%;
+	background-color: black;
+}
+
